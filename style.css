@@ -145,6 +145,14 @@ section p {
   max-width: 400px;
   height: auto;
 }
+.about .about_main .image video {
+  width: 100%;
+  max-width: 500px;
+  height: 450px;        /* altura controlada */
+  object-fit: cover;    /* recorta sin deformar */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
 
 .about_text h1 {
   font-size: 2.5rem;
